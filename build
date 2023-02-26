@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cargo fmt &&
+cargo clippy &&
+cargo build
+#RUST_LOG=debug cargo run -- -s /tmp/creds list
